@@ -1,0 +1,1 @@
+select (months*salary) as EmpSalary, count(employee_id) from employee where (months * salary) = (select max(months * salary) from employee) group by (months*salary)
