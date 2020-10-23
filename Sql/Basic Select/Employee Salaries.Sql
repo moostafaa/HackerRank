@@ -1,0 +1,3 @@
+select Name from Employee 
+where salary > 2000 and months < 10
+order by Employee_id 
